@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Broad Application2</string>
+    <string name="broad">自定义广播</string>
+    <string name="send">发送广播</string>
+</resources>
