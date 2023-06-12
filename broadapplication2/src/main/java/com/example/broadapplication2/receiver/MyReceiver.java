@@ -15,6 +15,7 @@ public class MyReceiver extends BroadcastReceiver {
             String customValue = intent.getStringExtra("extraKey");
             Toast.makeText(context, "在MyReceiver中接收到广播", Toast.LENGTH_SHORT).show();
             Log.d(TAG, "接收com.example.broadapplication中发出的自定义广播: " + customValue);
+            Log.d(TAG, "onReceive: 修改代码");
         }
     }
 }
